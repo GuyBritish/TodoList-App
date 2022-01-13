@@ -41,4 +41,6 @@ const TodoContextProvider: React.FC = (props) => {
 	return <TodoContext.Provider value={ctxValue}>{props.children}</TodoContext.Provider>;
 };
 
+export { TodoContext };
+
 export default TodoContextProvider;
